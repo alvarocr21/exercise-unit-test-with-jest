@@ -5,11 +5,11 @@ const sum = (a,b) => {
 
 let convierte = (monto, moneda) =>{
     if (moneda=="USD"){
-        return ((monto/1.2)*127.9).toFixed(2)
+        return parseFloat(((monto/1.2)*127.9).toFixed(2))
     }else if(moneda == "EUR"){
-        return (monto*1.2).toFixed(2)
+        return parseFloat((monto*1.2).toFixed(2))
     }else if(moneda == "JPY"){
-        return ((monto/127.9)*.08).toFixed(2) }
+        return parseFloat(((monto/127.9)*.08).toFixed(2)) }
 }
 
 
