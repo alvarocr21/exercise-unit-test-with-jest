@@ -1,6 +1,6 @@
 # Ignore everything
 /*
-
+/node_modules
 !.gitignore
 !.gitpod.yml
 !.gitpod.Dockerfile
